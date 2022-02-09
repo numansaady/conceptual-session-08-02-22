@@ -36,8 +36,10 @@
     output("count");
   }
   function minus(e) {
-    count--;
-    output("count");
+    if (count > 0) {
+      count--;
+      output("count");
+    }
   }
 
   function output(id) {
