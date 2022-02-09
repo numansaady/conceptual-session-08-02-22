@@ -14,7 +14,7 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <div class="container text-center">
+    <main class="container text-center">
       <section id="section-container">
         <h1 id="heading" class="mb-5">Conceptual Session 08-02-2022</h1>
         <div id="btn-group">
@@ -27,7 +27,14 @@
           <br />
         </div>
       </section>
-    </div>
+
+      <section id="count-container" class="my-5">
+        <h1 class="display-3">Count with JavaScript</h1>
+        <h1 id="count" class="">0</h1>
+        <button onclick="add()" id="plus" class="btn btn-success">+</button>
+        <button onclick="minus()" id="minus" class="btn btn-danger">-</button>
+      </section>
+    </main>
 
     <script src="./main.js"></script>
   </body>
